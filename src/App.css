@@ -1,0 +1,537 @@
+
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+ body.dark #home{
+  background-image: url("https://cdn.discordapp.com/attachments/993445344358699118/1020363840489279518/Gaming-Wallpaper-09-1920-x-1080.jpg");
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+  
+}
+#home{
+  background-image: url("https://i.ibb.co/gJFpDPF/super-nintendo-brand-video-games-nintendo-typography-red-bac-q7hx-2560.webp");
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button_red{
+  width: 150%;
+}
+
+
+
+
+.welcome_home_div{
+  display:flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.Login_link{
+  color:white; 
+  font-weight: bolder;
+}
+
+
+.Login_lin:hover{
+  color:white; 
+  font-weight: bolder;
+}
+
+
+.welcome_h1{
+  color:white;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  font-style: none;
+}
+
+body{
+  background-image: url("https://cdn.discordapp.com/attachments/993445344358699118/1020324608089522197/CT52xMWhite.jpg");
+  background-repeat: no-repeat;
+  background-size: 108% 200%;
+
+  
+}
+
+body.dark {
+  background-image: url("https://cdn.discordapp.com/attachments/993445344358699118/1020324608374747229/CT52xM.jpg");
+
+}
+
+body.dark .titleEditAdmin{
+  color:white
+}
+
+body.dark label{
+  color:white;
+  font-weight: bolder;
+}
+
+label{
+  font-weight: bold;
+}
+
+body.dark h3{
+  color:black;
+  font-weight: lighter;
+}
+
+.divArtCont{
+  background-color: rgba(217, 217, 217, 0.715);
+}
+
+body.dark .divArtCont {
+
+  background-color: rgba(255, 255, 255, 0.697);}
+
+.btn-container p{
+  color:rgb(152, 29, 29)
+}
+
+/* TITULOS IMAGENES  */
+
+body.dark .welcome {
+  color:black;
+}
+.b_img_logi{
+  display:block
+}
+
+.w_img_logi{
+  display:none;
+
+}
+
+body.dark .b_img_logi{
+  display:none
+}
+
+body.dark .w_img_logi{
+  display:block;
+}
+
+
+.w_titu_editPost{
+  display:block
+}
+
+.b_titu_editPost{
+  display:none;
+  
+}
+
+body.dark .w_titu_editPost{
+  display:none
+}
+
+body.dark .b_titu_editPost{
+  display:block;
+}
+
+.w_titu_newPost{
+  display:block
+}
+
+.b_titu_newPost{
+  display:none;
+}
+
+body.dark .w_titu_newPost{
+  display:none
+}
+
+body.dark .b_titu_newPost{
+  display:block;
+}
+
+.w_titu_newPlattform{
+  display:block
+}
+
+.b_titu_newPlattform{
+  display:none;
+}
+
+body.dark .w_titu_newPlattform{
+  display:none
+}
+
+body.dark .b_titu_newPlattform{
+  display:block;
+}
+
+.w_titu_newGame{
+  display:block;
+
+}
+
+.b_titu_newGame{
+  display:none;
+
+}
+
+body.dark .w_titu_newGame{
+  display:none;
+  
+}
+
+body.dark .b_titu_newGame{
+  display:block;
+
+}
+
+.w_titu_editGame{
+  display:block
+}
+
+.b_titu_editGame{
+  display:none;
+  
+}
+
+body.dark .w_titu_editGame{
+  display:none
+}
+
+body.dark .b_titu_editGame{
+  display:block;}
+
+
+
+.profile-img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.container_image_profile{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+
+}
+
+input:focus{
+    border-color: black solid 2px;
+
+}
+
+label {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.formprofile {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.file-button {
+  display: block;
+  width: 200px;
+  border-radius: 10px;
+  text-align: center;
+  justify-content: center;
+  color: black;
+  background-color: rgb(221, 221, 221);
+  font-size: 20px;
+  padding: 8px 0px;
+}
+
+body.dark .file-button{
+  color: black
+}
+
+input[type="file"] {
+  opacity: 0;
+  width: 0.1px;
+  height: 0.1px;
+  overflow: hidden;
+  z-index: -1;
+  position: absolute;
+}
+
+input + label {
+  cursor: pointer;
+  border-color: black;
+}
+ul {
+  list-style: none;
+}
+
+.navMenu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.miniProfile {
+  height: 100%;
+}
+
+.rightHeaderContainer {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.SubMenuA {
+  text-decoration: none;
+  color: whitesmoke;
+}
+.SubMenuB {
+  text-decoration: none;
+  color: rgb(193 101 101);
+}
+
+/* // SCROLL BAR */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(0, 0, 0);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(114, 10, 10);
+}
+
+/* // ERROR MESSAGE */
+.errorMessage {
+  color: red;
+}
+
+/* // titleheader */
+.linkTitle {
+  text-decoration: none;
+  color: white;
+}
+
+/* // DIV ARTICULO */
+
+.divArtCont {
+  width: 70%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+/* // BTN DELETE */
+
+.btn-delete {
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+  color: black;
+}
+.btn-delete :hover {
+  color: red;
+  cursor: pointer;
+}
+
+.btnOnclickEdit {
+  background-color: transparent;
+  border: none;
+  color: black;
+  font-size: 30px;
+}
+.btnOnclickEdit:hover {
+  color: red;
+}
+
+.btn-delete-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.titleEditAdmin {
+  color: rgb(10, 10, 10);
+}
+
+/* // */
+
+.Toastify__toast--success {
+  border: 5px solid #621515 !important;
+  border-radius: 50px !important;
+  background: #000000 !important;
+}
+.Toastify__toast--success::before {
+  z-index: 100000;
+  left: 12px;
+  top: 6px;
+}
+.Toastify__toast--success::after {
+  position: absolute;
+  color: #333333;
+  font-size: 15px;
+  font-weight: 700;
+  left: 265px;
+  top: 20px;
+  padding-top: 14px !important;
+}
+@media (max-width: 1100px) {
+  .divArtCont{
+    height: 80px;
+    
+  }
+
+}
+
+@media (max-width: 900px) {
+  body.dark #home{
+    background-image: url("https://cdn.discordapp.com/attachments/993445344358699118/1020363840489279518/Gaming-Wallpaper-09-1920-x-1080.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  
+    
+  }
+  #home{
+    background-image: url("https://i.ibb.co/gJFpDPF/super-nintendo-brand-video-games-nintendo-typography-red-bac-q7hx-2560.webp");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+}
+
+
+
+
+@media (max-width: 600px) {
+  
+  #home{
+    height: 800px;
+  }
+  .divArtCont{
+    height: 110px;
+    
+  }
+  .w_titu_editPost{
+    width: 100%;
+  }
+  
+  .b_titu_editPost{
+    width: 100%;
+  }
+  
+  body.dark .w_titu_editPost{
+    width: 100%;
+  }
+  
+  body.dark .b_titu_editPost{
+    width: 100%;
+  }
+
+  .w_titu_editGame{
+    width: 100%;
+  }
+  
+  .b_titu_editGame{
+    width: 100%;
+  }
+  
+  body.dark .w_titu_editGame{
+    width: 100%;
+  }
+  
+  body.dark .b_titu_editGame{
+    width: 100%;
+  }
+  
+  .w_titu_newPost{
+    width: 100%;
+  }
+  
+  .b_titu_newPost{
+    width: 100%;
+  }
+  
+  body.dark .w_titu_newPost{
+    width: 100%;
+  }
+  
+  body.dark .b_titu_newPost{
+    width: 100%;
+  }
+  .w_titu_newPlattform{
+    width: 100%;
+  }
+  
+  .b_titu_newPlattform{
+    width: 100%;
+  }
+  
+  body.dark .w_titu_newPlattform{
+    width: 100%;
+  }
+  
+  body.dark .b_titu_newPlattform{
+    width: 100%;
+  }
+
+
+  .w_titu_newGame{
+    width: 100%;
+  }
+  
+  .b_titu_newGame{
+    width: 100%;
+  }
+  
+  body.dark .w_titu_newGame{
+    width: 100%;
+  }
+  
+  body.dark .b_titu_newGame{
+    width: 100%;
+  }
+}
